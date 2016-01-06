@@ -1,23 +1,49 @@
-.exo img{
+.exo img {
   width: 500px;
 }
-.exo p{
+
+.exo p {
   margin: 1%;
 }
-.exo ul li{
+
+.exo ul li {
   margin: 1%;
 }
-.tableau_contact li{
+
+.tableau_contact li {
   list-style-type: none;
   float: left;
 }
-.tableau_contact span{
+
+.tableau_contact span {
   width: 200px;
   display: inline-block;
   padding: 10px;
   border: 1px solid black;
 }
-.damier li{
+
+.damier li {
   width: 50px;
   height: 50px;
+}
+
+.master div {
+  width: 46%;
+  float: left;
+  border: 20px solid #fff;
+  background-color: #98B98B;
+}
+
+.master h3 {
+  color: #fff;
+}
+
+.master p {
+  padding: 10;
+}
+
+.master img {
+  padding: 20px;
+  width: 50%;
+  float: left;
 }
