@@ -28,24 +28,25 @@
 }
 
 .master div {
-  width: 46%;
+  width: 47%;
   float: left;
-  border: 20px solid #fff;
+  margin: 20px;
   background-color: #98B98B;
-}
-
-.master h3 {
-  color: #fff;
-}
-
-.master p {
-  padding: 10;
 }
 
 .master img {
   padding: 20px;
   width: 50%;
   float: left;
+}
+
+.master h3 {
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.master p {
+  padding: 10px;
 }
 
 .indicateur li {
@@ -58,5 +59,10 @@
 }
 
 .tableau_contact li:nth-child(2n) {
-  background-color: #777;
+  background-color: #7f7f7f;
+}
+.damier li{
+  width: 40px;
+  height: 40px;
+  background-color: #000;
 }
