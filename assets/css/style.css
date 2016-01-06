@@ -47,3 +47,16 @@
   width: 50%;
   float: left;
 }
+
+.indicateur li {
+  float: left;
+  list-style: none;
+}
+
+.indicateur :nth-child(4), .indicateur :nth-child(8), .indicateur :last-child {
+  background-color: red;
+}
+
+.tableau_contact li:nth-child(2n) {
+  background-color: #777;
+}
